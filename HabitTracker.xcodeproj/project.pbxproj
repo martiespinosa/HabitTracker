@@ -11,6 +11,11 @@
 		41857BE02C3439A600CFC6BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857BDF2C3439A600CFC6BF /* ContentView.swift */; };
 		41857BE22C3439A700CFC6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41857BE12C3439A700CFC6BF /* Assets.xcassets */; };
 		41857BE52C3439A700CFC6BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41857BE42C3439A700CFC6BF /* Preview Assets.xcassets */; };
+		41857BEC2C343A1200CFC6BF /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857BEB2C343A1200CFC6BF /* Habit.swift */; };
+		41857BEE2C343E0900CFC6BF /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857BED2C343E0900CFC6BF /* FormView.swift */; };
+		41857BF02C34489900CFC6BF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857BEF2C34489900CFC6BF /* DetailView.swift */; };
+		41857BF22C35CB4E00CFC6BF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857BF12C35CB4E00CFC6BF /* CalendarView.swift */; };
+		41857BF42C387BA500CFC6BF /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41857BF32C387BA500CFC6BF /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		41857BDF2C3439A600CFC6BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41857BE12C3439A700CFC6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41857BE42C3439A700CFC6BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41857BEB2C343A1200CFC6BF /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		41857BED2C343E0900CFC6BF /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		41857BEF2C34489900CFC6BF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		41857BF12C35CB4E00CFC6BF /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		41857BF32C387BA500CFC6BF /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				41857BDD2C3439A600CFC6BF /* HabitTrackerApp.swift */,
 				41857BDF2C3439A600CFC6BF /* ContentView.swift */,
+				41857BED2C343E0900CFC6BF /* FormView.swift */,
+				41857BEF2C34489900CFC6BF /* DetailView.swift */,
+				41857BF12C35CB4E00CFC6BF /* CalendarView.swift */,
+				41857BF32C387BA500CFC6BF /* ChartView.swift */,
+				41857BEB2C343A1200CFC6BF /* Habit.swift */,
 				41857BE12C3439A700CFC6BF /* Assets.xcassets */,
 				41857BE32C3439A700CFC6BF /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41857BEC2C343A1200CFC6BF /* Habit.swift in Sources */,
 				41857BE02C3439A600CFC6BF /* ContentView.swift in Sources */,
+				41857BF22C35CB4E00CFC6BF /* CalendarView.swift in Sources */,
+				41857BF42C387BA500CFC6BF /* ChartView.swift in Sources */,
+				41857BEE2C343E0900CFC6BF /* FormView.swift in Sources */,
+				41857BF02C34489900CFC6BF /* DetailView.swift in Sources */,
 				41857BDE2C3439A600CFC6BF /* HabitTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +295,7 @@
 				DEVELOPMENT_TEAM = Z458PWZBW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Habits;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +325,7 @@
 				DEVELOPMENT_TEAM = Z458PWZBW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Habits;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
